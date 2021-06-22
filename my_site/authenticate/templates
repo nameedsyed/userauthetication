@@ -1,7 +1,0 @@
-{% extends 'authenticate/base.html' %} {% load static %} {% block content %}
-Register
-{% csrf_token %} {% if form.errors %}
-
-your form has errors...
-{% for field in form %} {% if field.errors %} {{field.errors}} {% endif %} {% endfor %}
-{% endif %} {{form.as_p}} {% endblock %} 
