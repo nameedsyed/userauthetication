@@ -1,4 +1,0 @@
-{% extends 'authenticate/base.html' %} {% block content %}
-LOGIN
-{% csrf_token %}
-{% endblock %} 
